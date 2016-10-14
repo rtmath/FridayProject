@@ -1,8 +1,15 @@
 
+html {
+  width: 100%;
+  height: 100%;
+}
 
 body {
   width: 100%;
+  height: 100%;
+  background-color: black;
   background-image: url(../img/city.jpg);
+  background-repeat: repeat-x;
   font-family: arcade;
   color: white;
 }
@@ -20,34 +27,26 @@ h2 {
 }
 
 p {
-  font-size: 16pt;
+  font-size: 18pt;
 }
 
 hr {
-  border-color: seagreen;
+  border-color: mediumturquoise;
 }
 
 p strong {
   font-size: 18pt;
   font-weight: bold;
-  color: aqua;
+  color: #cc00cc;
 }
 
 h2 small {
   color: #248f8b;
 }
 
-a:link {
-  color: mediumorchid;
-}
-
-a:visited {
-  color: mediumorchid;
-}
-
-a:hover {
-  color: white;
-}
+a:link {color: mediumorchid;}
+a:visited {color: mediumorchid;}
+a:hover {color: white; text-decoration: none;}
 
 @font-face {
   font-family: 'arcade';
@@ -58,9 +57,27 @@ a:hover {
   margin-left: 140px;
 }
 
+#midrow {
+  /*position: fixed;*/
+  border: 8px rgba(0,0,0,1);
+  border-style: ridge;
+  border-color: blue;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,45,179,0.5), rgba(0,0,0,1));
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 #botrow {
   /*position: fixed;*/
-  margin-top: 75%;
+  border: 8px rgba(0,0,0,1);
+  border-style: ridge;
+  border-color: blue;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,45,179,0.5), rgba(0,0,0,1));
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 2em;
 }
 
 #selfport {
@@ -68,16 +85,18 @@ a:hover {
   width: 160px;
 }
 
-#github a:link {
-  color: white;
+.horlist {
+  text-align: center;
 }
 
-#github a:visited {
-  color: white;
+.horlist ol {
+  display: inline;
+  list-style-type: none;
 }
 
-#github a:hover {
-  color: mediumorchid;
+.horlist ol li {
+  display: inline-block;
+  text-align: center;
 }
 
 .lists {
@@ -95,6 +114,20 @@ a:hover {
 
 .sbtext {
   font-size: 14pt;
+}
+
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.col-height {
+  .col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
 }
 
 .centpic {
