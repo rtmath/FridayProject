@@ -7,6 +7,12 @@ body {
   color: white;
 }
 
+span {
+  font-size: 15pt;
+  display: block;
+  text-align: center;
+}
+
 h2 {
   color: #48d1cc; /*mediumturqoise*/
   text-align: center;
@@ -14,7 +20,7 @@ h2 {
 }
 
 p {
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
 hr {
@@ -22,7 +28,7 @@ hr {
 }
 
 p strong {
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: bold;
   color: aqua;
 }
@@ -32,7 +38,7 @@ h2 small {
 }
 
 a:link {
-  color: lavender;
+  color: mediumorchid;
 }
 
 a:visited {
@@ -54,7 +60,24 @@ a:hover {
 
 #botrow {
   /*position: fixed;*/
-  margin-top: 80%;
+  margin-top: 75%;
+}
+
+#selfport {
+  height: 240px;
+  width: 160px;
+}
+
+#github a:link {
+  color: white;
+}
+
+#github a:visited {
+  color: white;
+}
+
+#github a:hover {
+  color: mediumorchid;
 }
 
 .lists {
