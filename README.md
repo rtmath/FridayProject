@@ -2,11 +2,11 @@
 
 ## Content
 
-PixelWorks by Ryan Mathisen 10.14.16
+PixelWorks by Ryan Mathisen 10/14/16
 
 ## Description
 
-_This is a simple webpage created as somewhat of a minimum-viable product exercise. Some of the pixel art, such as the LinkedIn and Twitter buttons, were made by me. There are lots of improvements I would like to make, and will implement going forward.
+_This is a simple webpage created as somewhat of a minimum-viable product exercise. Some of the pixel art, such as the LinkedIn and Twitter buttons, were made by me. There are lots of improvements I would like to make, and will implement going forward._
 
 ### Planned improvements
 * _Add Facebook and Github buttons_
